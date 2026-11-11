@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='260' viewBox='0 0 1200 260' role='img' aria-label='Animated closing banner with waves'>
+  <title>Thanks for stopping by</title>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#070b14'/><stop offset='1' stop-color='#0f1c33'/></linearGradient>
+    <linearGradient id='w1' x1='0' y1='0' x2='1' y2='0'><stop offset='0' stop-color='#22d3ee' stop-opacity='.35'/><stop offset='1' stop-color='#34d399' stop-opacity='.35'/></linearGradient>
+    <linearGradient id='w2' x1='0' y1='0' x2='1' y2='0'><stop offset='0' stop-color='#34d399' stop-opacity='.2'/><stop offset='1' stop-color='#22d3ee' stop-opacity='.2'/></linearGradient>
+    <clipPath id='r'><rect width='1200' height='260' rx='24'/></clipPath>
+  </defs>
+  <style>text { font-family: JetBrains Mono, Fira Code, Consolas, SFMono-Regular, Courier New, monospace; } @media (prefers-reduced-motion: reduce) { * { animation: none; } }</style>
+  <g clip-path='url(#r)'>
+    <rect width='1200' height='260' fill='url(#bg)'/>
+    <path d='M0 170Q150 130 300 170T600 170T900 170T1200 170T1500 170T1800 170V260H0Z' fill='url(#w2)'><animateTransform attributeName='transform' type='translate' from='-600 0' to='0 0' dur='14s' repeatCount='indefinite'/></path>
+    <path d='M0 195Q150 155 300 195T600 195T900 195T1200 195T1500 195T1800 195V260H0Z' fill='url(#w1)'><animateTransform attributeName='transform' type='translate' from='0 0' to='-600 0' dur='9s' repeatCount='indefinite'/></path>
+    <text x='600' y='78' text-anchor='middle' font-size='32' font-weight='700' fill='#e2e8f0'>Thanks for stopping by.</text>
+    <text x='600' y='116' text-anchor='middle' font-size='18' fill='#94a3b8'>keep building · keep looping</text>
+    <circle cx='600' cy='144' r='5' fill='#fbbf24'><animate attributeName='opacity' values='1;.25;1' dur='2s' repeatCount='indefinite'/></circle>
+  </g>
+</svg>
