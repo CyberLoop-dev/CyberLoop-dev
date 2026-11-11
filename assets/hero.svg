@@ -6,9 +6,9 @@
     <pattern id='dots' width='28' height='28' patternUnits='userSpaceOnUse'><circle cx='2' cy='2' r='1.2' fill='#22d3ee' opacity='.16'/></pattern>
     <filter id='glow' x='-50%' y='-50%' width='200%' height='200%'><feGaussianBlur stdDeviation='4' result='b'/><feMerge><feMergeNode in='b'/><feMergeNode in='SourceGraphic'/></feMerge></filter>
     <path id='orbit' d='M140 210a110 110 0 1 0 220 0a110 110 0 1 0 -220 0'/>
-    <clipPath id='c1'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;660;660;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></clipPath>
-    <clipPath id='c2'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;660;660;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='4s' repeatCount='indefinite'/></rect></clipPath>
-    <clipPath id='c3'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;660;660;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='8s' repeatCount='indefinite'/></rect></clipPath>
+    <clipPath id='c1'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;576;576;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></clipPath>
+    <clipPath id='c2'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;606;606;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='4s' repeatCount='indefinite'/></rect></clipPath>
+    <clipPath id='c3'><rect x='468' y='266' height='40' width='0'><animate attributeName='width' values='0;376;376;0;0' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='8s' repeatCount='indefinite'/></rect></clipPath>
   </defs>
   <style>
     text { font-family: JetBrains Mono, Fira Code, Consolas, SFMono-Regular, Courier New, monospace; }
@@ -35,13 +35,13 @@
   <text x='470' y='140' font-size='22' fill='#64748b'>Hi, I'm</text>
   <text x='466' y='222' font-size='70' font-weight='700' fill='url(#loop)'>CyberLoop-dev</text>
 
-  <!-- typing lines -->
-  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c1)'>&gt; Building developer tools &amp; automation</text>
-  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c2)'>&gt; AI agents · Robotics · Linux · Embedded</text>
-  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c3)'>&gt; Code that moves things.</text>
-  <g><animate attributeName='opacity' values='1;1;0;0' keyTimes='0;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;1130;1130;470;470' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
-  <g><animate attributeName='opacity' values='0;0;1;1;0;0' keyTimes='0;0.32;0.33;0.64;0.65;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;470;470;1130;1130;470' keyTimes='0;0.33;0.34;0.52;0.64;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
-  <g><animate attributeName='opacity' values='0;0;1;1' keyTimes='0;0.65;0.66;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;470;470;1130;1130' keyTimes='0;0.66;0.67;0.85;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
+  <!-- typing lines: textLength pins each line to a fixed width in any font -->
+  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c1)' textLength='562' lengthAdjust='spacing'>&gt; Building developer tools &amp; automation</text>
+  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c2)' textLength='590' lengthAdjust='spacing'>&gt; AI agents · Robotics · Linux · Embedded</text>
+  <text x='470' y='294' font-size='24' fill='#e2e8f0' clip-path='url(#c3)' textLength='360' lengthAdjust='spacing'>&gt; Code that moves things.</text>
+  <g><animate attributeName='opacity' values='1;1;0;0' keyTimes='0;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;1040;1040;470;470' keyTimes='0;0.18;0.31;0.32;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
+  <g><animate attributeName='opacity' values='0;0;1;1;0;0' keyTimes='0;0.32;0.33;0.64;0.65;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;470;470;1070;1070;470' keyTimes='0;0.33;0.34;0.52;0.64;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
+  <g><animate attributeName='opacity' values='0;0;1;1' keyTimes='0;0.65;0.66;1' dur='12s' begin='0s' repeatCount='indefinite'/><rect y='272' width='12' height='26' fill='#fbbf24'><animate attributeName='x' values='470;470;470;835;835' keyTimes='0;0.66;0.67;0.85;1' dur='12s' begin='0s' repeatCount='indefinite'/></rect></g>
 
   <!-- interest pills -->
   <g font-size='16' fill='#94a3b8' text-anchor='middle'>
