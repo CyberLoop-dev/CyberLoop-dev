@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="CyberLoop-dev animated banner" width="100%"></p>
+
 <!-- PROFILE README - Artan / CyberLoop -->
 <div align="center">
   <img src="assets/hero.svg" alt="Artan - CyberLoop | Code, Create, Automate" width="100%"/>
@@ -13,7 +15,7 @@
 
 ---
 
-## About me
+## 💡 About me
 - **Name:** Artan
 - **Nickname:** CyberLoop
 - **What I do:** Explore software development, build projects, and experiment with technology.
@@ -23,7 +25,7 @@
 
 > **Code should do more than look good - it should do something useful.**
 
-## What I'm exploring
+## 📌 What I'm exploring
 | Focus | What interests me |
 |:--|:--|
 | **Software & Web** | Practical applications, APIs, interfaces, and developer tools. |
@@ -31,12 +33,12 @@
 | **Robotics & Hardware** | Experiments that connect code with the physical world. |
 | **Systems & Open Source** | Linux, embedded systems, and projects worth sharing. |
 
-## Technologies
+## 📌 Technologies
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,php,cpp,java,kotlin,git,github,linux,arduino,vscode&perline=7" alt="Technologies and tools"/>
 </div>
 
-## Selected projects
+## 📌 Selected projects
 | Project | What it is |
 |:--|:--|
 | [**tidyup**](https://github.com/CyberLoop-dev/tidyup) | A Python utility for organizing messy download folders with a safe preview-first workflow. |
@@ -47,14 +49,14 @@
 | [**passcheck**](https://github.com/CyberLoop-dev/passcheck) | A privacy-first password-strength checker that runs locally. |
 <p align="center"><a href="https://github.com/CyberLoop-dev?tab=repositories"><b>Browse all repositories &rarr;</b></a></p>
 
-## GitHub activity
+## 📌 GitHub activity
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=CyberLoop-dev&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=7C5CFF&text_color=C9D1D9&rank_icon=github" alt="GitHub profile statistics"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberLoop-dev&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Most used languages"/>
 </div>
 <div align="center"><img src="https://streak-stats.demolab.com?user=CyberLoop-dev&hide_border=true&background=0D1117&ring=22D3EE&fire=7C5CFF&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak"/></div>
 
-## Find me on GitHub
+## 📌 Find me on GitHub
 <div align="center">
   <a href="https://github.com/CyberLoop-dev"><img src="https://img.shields.io/badge/GitHub-CyberLoop--dev-181717?style=for-the-badge&logo=github" alt="GitHub profile"/></a>
   <a href="https://github.com/CyberLoop-dev?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-22D3EE?style=for-the-badge&logo=github" alt="Projects"/></a>
